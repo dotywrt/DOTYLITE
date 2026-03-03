@@ -275,8 +275,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_cortex-a53
 Installed-Size: 163840
 Filename: firewall4_2024.12.18~18fc0ead-r1_aarch64_cortex-a53.ipk
-Size: 30121
-SHA256sum: 7c46398ba2f93dbac1a773dbc75be9347b8defeeed69f58d648fe7d28675b856
+Size: 30879
+SHA256sum: 639b998b1aa425ec87d0d385f2d8570f17076f5f3a5c263df36ac4d875428edf
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
@@ -1008,8 +1008,8 @@ Maintainer: Steven Barth <steven@midlink.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: libnftnl11_1.2.8-r1_aarch64_cortex-a53.ipk
-Size: 72699
-SHA256sum: a10aaa137e610a7f411d78be93f69f21c90fe62354c14074d967a7e80f5baaa9
+Size: 73132
+SHA256sum: ca3492967b05668f04fb83ebcfc8064928d27f56c879a16de352df36b8228aaf
 Description:  libnftnl is a userspace library providing a low-level netlink
  programming interface (API) to the in-kernel nf_tables subsystem.
 
@@ -1765,7 +1765,7 @@ Description:  LuCI for Tailscale
 
 Package: luci-app-turboacc
 Version: 1.4-r1
-Depends: libc, luci, luci-compat, kmod-tcp-bbr, kmod-nft-offload, luci-lua-runtime
+Depends: libc, luci, luci-compat, kmod-tcp-bbr, kmod-nft-offload, kmod-nft-fullcone, luci-lua-runtime
 Source: feeds/base/turboacc/luci-app-turboacc
 SourceName: luci-app-turboacc
 License: GPL-3.0-only
@@ -1776,8 +1776,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-turboacc_1.4-r1_all.ipk
-Size: 4588
-SHA256sum: e9fa98f90f450c76709540c200033dc493c011282bd304ac43f3838d310420da
+Size: 4594
+SHA256sum: b56833442017f356159d86c594e2f7ff58a9d7d2a56ff6f445e17a2893c8f05e
 Description:  LuCI support for Flow Offload / Shortcut-FE
 
 Package: luci-theme-argon
@@ -1878,10 +1878,10 @@ Section: net
 SourceDateEpoch: 1731712289
 URL: http://netfilter.org/projects/nftables/
 Architecture: aarch64_cortex-a53
-Installed-Size: 1064960
+Installed-Size: 1126400
 Filename: nftables-json_1.1.1-r1_aarch64_cortex-a53.ipk
-Size: 382554
-SHA256sum: 7eb34f03d06db86bf0acc3e8973f3513cfdb29aba006736d610d2626ede23bc9
+Size: 384087
+SHA256sum: 808857668b821b83a8913c13360f6bd5c4bdb774cdc36be5144d5080dc8d8e6d
 Description:  nftables userspace utility with JSON support
 
 Package: nss-firmware-ipq807x
